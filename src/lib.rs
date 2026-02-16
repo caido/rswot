@@ -17,7 +17,7 @@ mod validation;
 /// # Examples
 ///
 /// ```
-/// let validation = validate("lreilly@stanford.edu");
+/// let validation = rswot::validate("lreilly@stanford.edu");
 /// assert!(validation.is_ok());
 /// ```
 pub fn validate<T>(email: T) -> Result<Validation>
