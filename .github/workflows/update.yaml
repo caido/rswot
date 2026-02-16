@@ -77,7 +77,7 @@ jobs:
         if: steps.changes.outputs.changes == 'true'
         working-directory: rswot
         env:
-          GH_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ secrets.CI__RSWOT__RW }} # Required to trigger the publish workflow
         run: |
           TAG="v${{ steps.bump.outputs.version }}"
           gh --repo caido/rswot release create "$TAG" --title "$TAG" --target main
