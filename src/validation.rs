@@ -1,16 +1,5 @@
 use crate::{Email, Tld};
 
-/// Status of validation
-#[derive(Debug, Clone, Copy, PartialEq, Eq, Hash)]
-pub enum Status {
-    /// Email is a valid academic email
-    Valid,
-    /// Email is from a known abusive domain
-    Abuse,
-    /// Email is marked as stop
-    Stop,
-}
-
 /// Result of validation
 #[derive(Debug, Clone, PartialEq, Eq, Hash)]
 pub struct Validation {
@@ -20,12 +9,22 @@ pub struct Validation {
     pub tld: Tld,
     /// Names of the institution that the email is from
     pub institution_names: Option<Vec<String>>,
-    /// Status of validation
-    pub status: Status,
 }
 
 impl Validation {
-    pub fn is_academic(&self) -> bool {
-        self.status == Status::Valid
+    pub(crate) fn new(email: Email) -> Validation {
+        let tld = email.tld();
+        Validation {
+            email,
+            tld,
+            institution_names: None,
+        }
+    }
+
+    pub(crate) fn with_institutions(self, institution_names: Vec<String>) -> Validation {
+        Validation {
+            institution_names: Some(institution_names),
+            ..self
+        }
     }
 }

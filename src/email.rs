@@ -6,7 +6,7 @@ use std::sync::LazyLock;
 
 use regex::Regex;
 
-use crate::{Error, Result};
+use crate::{Error, Result, Tld};
 
 static EMAIL_USER: LazyLock<Regex> =
     LazyLock::new(|| Regex::new(r"^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+\z").unwrap());
@@ -54,13 +54,45 @@ impl Email {
         })
     }
 
+    pub(crate) fn tld(&self) -> Tld {
+        Tld::new_owned(self.domain_parts()[0].to_string())
+    }
+
     pub(crate) fn domain_parts(&self) -> Vec<&str> {
         self.domain.rsplit('.').collect()
+    }
+}
+
+impl TryFrom<String> for Email {
+    type Error = Error;
+    fn try_from(value: String) -> Result<Email> {
+        Email::parse(&value)
+    }
+}
+
+impl TryFrom<&str> for Email {
+    type Error = Error;
+    fn try_from(value: &str) -> Result<Email> {
+        Email::parse(value)
     }
 }
 
 impl fmt::Display for Email {
     fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
         write!(f, "{}@{}", self.user, self.domain)
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_parse_email() {
+        let email = Email::parse("orhanbalci@ku.edu.tr").unwrap();
+        assert_eq!(email.domain, "ku.edu.tr");
+        assert_eq!(email.user, "orhanbalci");
+        assert_eq!(email.domain_parts(), vec!["tr", "edu", "ku"]);
+        assert_eq!(email.tld(), Tld::new("tr"));
     }
 }
