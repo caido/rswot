@@ -61,6 +61,7 @@ jobs:
           cargo bumpit patch --package rswot
           VERSION=$(cargo metadata --no-deps --format-version 1 | jq -r '.packages[0].version')
           echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+          cargo build
 
       - name: Commit and push
         if: steps.changes.outputs.changes == 'true'
@@ -75,6 +76,8 @@ jobs:
       - name: Create release tag
         if: steps.changes.outputs.changes == 'true'
         working-directory: rswot
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           TAG="v${{ steps.bump.outputs.version }}"
           gh --repo caido/rswot release create "$TAG" --title "$TAG" --target main
