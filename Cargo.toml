@@ -1,6 +1,6 @@
 [package]
 name = "rswot"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Caido Labs Inc. <dev@caido.io>"]
 description = "Identify email addresses that belong to colleges or universities"
 repository = "https://github.com/caido/rswot"
