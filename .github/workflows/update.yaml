@@ -58,7 +58,7 @@ jobs:
         working-directory: rswot
         run: |
           cargo install bumpit
-          cargo bumpit patch
+          cargo bumpit patch --package rswot
           VERSION=$(cargo metadata --no-deps --format-version 1 | jq -r '.packages[0].version')
           echo "version=$VERSION" >> "$GITHUB_OUTPUT"
 
