@@ -20,7 +20,7 @@ fn create_institutions(domains_dir: &Path) {
                 let path = e.path();
                 if path.is_dir() {
                     walk(&path, domains_root, map);
-                } else if path.extension().map_or(false, |e| e == "txt") {
+                } else if path.extension().is_some_and(|e| e == "txt") {
                     let name = path.file_name().and_then(|n| n.to_str()).unwrap_or("");
                     let parent = path.parent().unwrap_or(dir);
                     if parent == domains_root && SKIP_FILES.contains(&name) {
@@ -34,7 +34,7 @@ fn create_institutions(domains_dir: &Path) {
 
                     let lines: Vec<String> = io::BufReader::new(File::open(&path).unwrap())
                         .lines()
-                        .filter_map(Result::ok)
+                        .map_while(Result::ok)
                         .map(|l| l.trim().to_string())
                         .filter(|l| !l.is_empty())
                         .collect();

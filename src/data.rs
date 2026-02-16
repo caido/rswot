@@ -7,26 +7,26 @@ pub fn get_institution_names(parts: &[&str]) -> Option<Vec<String>> {
     let mut key = parts[0].to_string();
 
     for part in parts.iter().skip(1) {
-        key.push_str("/");
+        key.push('/');
         key.push_str(part);
         if let Some(names) = INSTITUTIONS.get(&key) {
             return Some(names.iter().map(|s| s.to_string()).collect());
         }
     }
 
-    return None;
+    None
 }
 
 pub fn is_under_tld(parts: &[&str]) -> bool {
-    check_set(&TLDS, &parts)
+    check_set(&TLDS, parts)
 }
 
 pub fn is_stop_list(parts: &[&str]) -> bool {
-    check_set(&STOPLIST, &parts)
+    check_set(&STOPLIST, parts)
 }
 
 pub fn is_abused(parts: &[&str]) -> bool {
-    check_set(&ABUSED, &parts)
+    check_set(&ABUSED, parts)
 }
 
 fn check_set(set: &phf::Set<&str>, parts: &[&str]) -> bool {
@@ -39,7 +39,7 @@ fn check_set(set: &phf::Set<&str>, parts: &[&str]) -> bool {
             needle = format!(".{}", needle);
         }
     }
-    return false;
+    false
 }
 
 #[cfg(test)]

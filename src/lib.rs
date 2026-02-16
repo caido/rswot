@@ -44,7 +44,7 @@ where
         return Ok(Validation::new(email).with_institutions(institution_names));
     }
 
-    return Err(Error::NotAcademic);
+    Err(Error::NotAcademic)
 }
 
 #[cfg(test)]
