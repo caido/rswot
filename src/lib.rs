@@ -52,6 +52,17 @@ mod tests {
     use super::*;
 
     #[test]
+    fn test_validate_basic() {
+        let validation = validate("lreilly@stanford.edu").unwrap();
+        assert_eq!(validation.email.to_string(), "lreilly@stanford.edu");
+        assert_eq!(validation.tld.as_str(), "edu");
+        assert_eq!(
+            validation.institution_names.unwrap(),
+            vec!["Stanford University"]
+        );
+    }
+
+    #[test]
     fn test_validate() {
         let tests = Vec::from([
             ("lreilly@stanford.edu", None),

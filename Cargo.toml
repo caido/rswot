@@ -1,7 +1,12 @@
 [package]
 name = "rswot"
 version = "0.1.0"
+authors = ["Caido Labs Inc. <dev@caido.io>"]
+description = "Identify email addresses that belong to colleges or universities"
+repository = "https://github.com/caido/rswot"
+license = "MIT OR Apache-2.0"
 edition = "2024"
+rust-version = "1.85"
 
 [dependencies]
 phf = "0.13"
