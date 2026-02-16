@@ -4,3 +4,12 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+thiserror = "2"
+rust-embed = "8"
+phf = "0.13"
+validator = "0.20"
+url = "2"
+regex = "1"
+
+[build-dependencies]
+phf_codegen = "0.13"
