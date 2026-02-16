@@ -29,8 +29,8 @@ impl Email {
         }
 
         let parts: Vec<&str> = email.rsplitn(2, '@').collect();
-        let user_part = parts[1];
-        let domain_part = parts[0];
+        let user_part = parts[1].trim().to_lowercase();
+        let domain_part = parts[0].trim().to_lowercase();
 
         // validate the length of each part of the email, BEFORE doing the regex
         // according to RFC5321 the max length of the local part is 64 characters
@@ -40,17 +40,17 @@ impl Email {
             return Err(Error::InvalidEmail);
         }
 
-        if !EMAIL_USER.is_match(user_part) {
+        if !EMAIL_USER.is_match(&user_part) {
             return Err(Error::InvalidEmail);
         }
 
-        if !EMAIL_DOMAIN.is_match(domain_part) {
+        if !EMAIL_DOMAIN.is_match(&domain_part) {
             return Err(Error::InvalidEmail);
         }
 
         Ok(Email {
-            user: user_part.to_string(),
-            domain: domain_part.to_string(),
+            user: user_part,
+            domain: domain_part,
         })
     }
 
