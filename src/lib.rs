@@ -10,6 +10,16 @@ mod error;
 mod tld;
 mod validation;
 
+/// Validate an email address.
+///
+/// Will return an error if the email is not academic or has been banned.
+///
+/// # Examples
+///
+/// ```
+/// let validation = validate("lreilly@stanford.edu");
+/// assert!(validation.is_ok());
+/// ```
 pub fn validate<T>(email: T) -> Result<Validation>
 where
     T: TryInto<Email>,

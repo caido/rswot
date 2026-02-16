@@ -16,6 +16,7 @@ static EMAIL_DOMAIN: LazyLock<Regex> = LazyLock::new(|| {
     ).unwrap()
 });
 
+/// Email address
 #[derive(Debug, Clone, PartialEq, Eq, Hash)]
 pub struct Email {
     user: String,

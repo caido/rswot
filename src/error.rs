@@ -1,5 +1,6 @@
 use thiserror::Error;
 
+/// Error type for validation
 #[derive(Error, Debug, PartialEq, Eq, Hash)]
 pub enum Error {
     #[error("Invalid email")]

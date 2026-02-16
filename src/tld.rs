@@ -1,6 +1,7 @@
 use std::borrow::Cow;
 use std::fmt;
 
+/// Top-level domain
 #[derive(Debug, Clone, PartialEq, Eq, Hash, PartialOrd, Ord)]
 pub struct Tld(Cow<'static, str>);
 

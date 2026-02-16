@@ -67,7 +67,8 @@ mod tests {
         ]);
 
         for (domain, name) in tests {
-            let parts = domain.split(".").collect::<Vec<&str>>();
+            println!("testing {}", domain);
+            let parts = domain.rsplit(".").collect::<Vec<&str>>();
             assert_eq!(get_institution_names(&parts).unwrap()[0], name);
         }
     }
