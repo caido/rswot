@@ -1,4 +1,4 @@
-name: Update domains from swot
+name: Update domains
 
 on:
   schedule:
