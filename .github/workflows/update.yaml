@@ -34,7 +34,6 @@ jobs:
         id: changes
         working-directory: rswot
         run: |
-          cd rswot
           if git diff --quiet; then
             echo "No changes detected after sync. Workflow will exit successfully."
             echo "changes=false" >> "$GITHUB_OUTPUT"
@@ -65,6 +64,7 @@ jobs:
 
       - name: Commit and push
         if: steps.changes.outputs.changes == 'true'
+        working-directory: rswot
         run: |
           git config --global user.email "dev@caido.io"
           git config --global user.name "Caido Bot"
@@ -74,6 +74,7 @@ jobs:
 
       - name: Create release tag
         if: steps.changes.outputs.changes == 'true'
+        working-directory: rswot
         run: |
           TAG="v${{ steps.bump.outputs.version }}"
           gh --repo caido/rswot release create "$TAG" --title "$TAG" --target main
