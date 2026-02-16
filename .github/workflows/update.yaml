@@ -1,0 +1,79 @@
+name: Update domains from swot
+
+on:
+  schedule:
+    - cron: '0 5 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout rswot
+        uses: actions/checkout@v6
+        with:
+          path: rswot
+          ref: main
+
+      - name: Checkout JetBrains/swot
+        uses: actions/checkout@v4
+        with:
+          repository: JetBrains/swot
+          path: swot
+          ref: master
+
+      - name: Update domains
+        run: |
+          rm -rf rswot/domains
+          cp -r swot/lib/domains rswot/domains
+
+      - name: Check for changes
+        id: changes
+        working-directory: rswot
+        run: |
+          cd rswot
+          if git diff --quiet; then
+            echo "No changes detected after sync. Workflow will exit successfully."
+            echo "changes=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          echo "changes=true" >> "$GITHUB_OUTPUT"
+
+      - name: Setup Rust
+        if: steps.changes.outputs.changes == 'true'
+        uses: dtolnay/rust-toolchain@efa25f7f19611383d5b0ccf2d1c8914531636bf9
+        with:
+          toolchain: stable
+
+      - name: Run tests
+        if: steps.changes.outputs.changes == 'true'
+        working-directory: rswot
+        run: cargo test
+
+      - name: Bump patch version
+        if: steps.changes.outputs.changes == 'true'
+        id: bump
+        working-directory: rswot
+        run: |
+          cargo install bumpit
+          cargo bumpit patch
+          VERSION=$(cargo metadata --no-deps --format-version 1 | jq -r '.packages[0].version')
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+
+      - name: Commit and push
+        if: steps.changes.outputs.changes == 'true'
+        run: |
+          git config --global user.email "dev@caido.io"
+          git config --global user.name "Caido Bot"
+          git add -A
+          git commit -m "chore: sync domains from JetBrains/swot"
+          git push
+
+      - name: Create release tag
+        if: steps.changes.outputs.changes == 'true'
+        run: |
+          TAG="v${{ steps.bump.outputs.version }}"
+          gh --repo caido/rswot release create "$TAG" --title "$TAG" --target main
