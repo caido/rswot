@@ -24,6 +24,7 @@ jobs:
           repository: JetBrains/swot
           path: swot
           ref: master
+          token: ${{ secrets.CI__RSWOT__RW }}
 
       - name: Update domains
         run: |
