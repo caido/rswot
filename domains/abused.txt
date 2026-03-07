@@ -1824,3 +1824,5 @@ tw.ac.kr
 ises.com.br
 viu.edu.vn
 usfa.edu.bo
+umk.ac.id
+std.umk.ac.id
