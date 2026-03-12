@@ -1681,7 +1681,6 @@ karabuk.edu.tr
 ogrenci.karabuk.edu.tr
 jdarc95.fr
 iekdelta360.edu.gr
-edu.lpnu.ua
 lpnu.ua
 fumec.edu.br
 u-erre.mx
@@ -1828,3 +1827,14 @@ ulacit.ed.cr
 mhs.ulm.ac.id
 fusdk12.net
 pi.edu.co
+calebuniversity.edu.ng
+academico.ifg.edu.br
+alumnoeseit.edu.co
+cu.ucsg.edu.ec
+ucsg.edu.ec
+usfa.edu.bo
+futa.edu.ng
+technikumcyfrowe.onmicrosoft.com
+alumno.uaemex.mx
+stu.kln.ac.lk
+universidadean.edu.co
