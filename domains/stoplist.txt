@@ -69,7 +69,6 @@ hainu.edu.cn
 hait.edu.cn
 hbdx.ac.cn
 hbtcm.edu.cn
-hbu.edu.cn
 hbucm.edu.cn
 henu.edu.cn
 hhu.edu.cn
@@ -227,7 +226,6 @@ stu.yznu.cn
 stu.zjhu.edu.cn
 stu.zuel.edu.cn
 stud.acdt.edu.cn
-stumail.hbu.edu.cn
 stumail.nwu.edu.cn
 sues.edu.cn
 sufe.edu.cn
