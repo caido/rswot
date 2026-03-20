@@ -679,7 +679,6 @@ duksung.ac.kr
 g.hongik.ac.kr
 g.shingu.ac.kr
 g.tu.ac.kr
-gne.go.kr
 hj.ac.kr
 hs.ac.kr
 hufs.ac.kr
@@ -1866,3 +1865,4 @@ mcbs.edu.om
 mcet.in
 bufs.ac.kr
 estgv.ipv.pt
+ugb.edu.sv
