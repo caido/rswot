@@ -1057,3 +1057,5 @@ utp.br
 collegiumwitelona.edu.pl
 sue.edu.eg
 mail.usantander.edu.pa
+tapachula.tecnm.mx
+lasallecolon.edu.pa
