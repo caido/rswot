@@ -309,7 +309,7 @@ my.smccd.edu
 my.stchas.edu
 my.stvt.edu
 my.tccd.edu
-my.uwi.edu
+uwi.edu
 my.yosemite.edu
 mycom.marin.edu
 mymail.aacc.edu
@@ -1896,3 +1896,4 @@ werribeesc.vic.edu.au
 khwopa.edu.np
 adm.emi.edu.bo
 udemex.edu.mx
+iugaza.edu.ps
