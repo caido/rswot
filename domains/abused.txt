@@ -1637,7 +1637,6 @@ usiu.ac.ke
 unisal.edu.py
 umn.ac.id
 sesidf.org.br
-s-mu.edu.eg
 office.cju.ac.kr
 cju.ac.kr
 jnu.ac.kr
@@ -1698,7 +1697,6 @@ ipluso.pt
 bcc1852.com
 erdogan.edu.tr
 eep.br
-ecampus.ut.ac.id
 ut.ac.id
 daihocthudo.edu.vn
 bkacad.edu.vn
