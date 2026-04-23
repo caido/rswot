@@ -1132,3 +1132,9 @@ cloud.wyk.edu.hk
 office.ctshkpcc.edu.hk
 aejics.org
 student.ptsb.edu.my
+ftu.ac.th
+student.gaf.ni.ac.rs
+online.gaf.ni.ac.rs
+online.medfak.ni.ac.rs
+samagu.ed.cr
+liston.school.nz
