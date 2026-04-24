@@ -163,7 +163,6 @@ stu.univ-saida.dz
 univ-emir.dz
 univ-ghardaia.dz
 donbosco.edu.ec
-espoch.edu.ec
 est.umet.edu.ec
 est.ups.edu.ec
 estudiantes.cordillera.edu.ec
@@ -1902,3 +1901,5 @@ sumare.edu.br
 eaeat-academy.edu.eg
 hpk.edu.ua
 eufh-mail.de
+inacapmail.cl
+mail.utoronto.ca
