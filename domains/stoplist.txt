@@ -1154,3 +1154,4 @@ ctrb.fab.mil.br
 edu.coljes.g12.br
 arh.bg.ac.rs
 webmail.uft.edu.br
+ryn.edu.pl
