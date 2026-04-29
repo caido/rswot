@@ -1155,3 +1155,4 @@ edu.coljes.g12.br
 arh.bg.ac.rs
 webmail.uft.edu.br
 ryn.edu.pl
+soyuzbilingual.edu.pa
