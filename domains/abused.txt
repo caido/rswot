@@ -1372,7 +1372,6 @@ dgu.ac.kr
 cefet-rj.br
 poltera.ac.id
 gujgov.edu.in
-pomona.edu
 nur.edu.bo
 fayettetech.edu
 my.csun.edu
