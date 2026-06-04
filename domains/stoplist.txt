@@ -1240,3 +1240,6 @@ ibc-vienna.at
 scsa.ac.in
 upb.edu.mx
 mhtia.edu.gh
+pcgs.edu.ph
+torva.edu.ee
+ucspkku.edu.mm
