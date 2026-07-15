@@ -369,7 +369,6 @@ stu.parkland.edu
 stu.templejc.edu
 stu.trenholmstate.edu
 student.angelina.edu
-student.annauniv.edu
 student.bccc.edu
 student.butte.edu
 student.centralia.edu
