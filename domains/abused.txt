@@ -342,7 +342,6 @@ rhodesstate.edu
 riohondo.edu
 roxbury.edu
 rstc.edu
-rutgers.edu
 sacsites.csus.edu
 sanjuancollege.edu
 sbcc.edu
@@ -1283,7 +1282,6 @@ yapenhasbekasi.sch.id
 cibertec.edu.pe
 singimail.rs
 edu.hanbat.ac.kr
-harding.edu
 ufpa.br
 univ-dbkm.dz
 nuevoleon.tecnm.mx
@@ -1352,7 +1350,6 @@ mokwon.ac.kr
 educacionbogota.edu.co
 deltauniv.edu.eg
 ulht.pt
-dgu.ac.kr
 cefet-rj.br
 poltera.ac.id
 gujgov.edu.in
@@ -1459,7 +1456,6 @@ edu.pa.senac.br
 vpt.edu.in
 sfsu.edu
 staff.kaywon.ac.kr
-uqconnect.edu.au
 morningside.edu
 faculdadecdl.edu.br
 akesu.org
@@ -1901,3 +1897,14 @@ acet.ac.in
 urse.edu.mx
 itismajo.school
 hlu.edu.vn
+tlu.edu.vn
+unj.ac.id
+upt.pe
+estudiantes.cucea.udg.mx
+bolyai-szakkozep.hu
+futo.edu.ng
+istx.edu.ec
+lincoln.edu.my
+mitid.edu.in
+krmu.edu.in
+aec.edu.in
