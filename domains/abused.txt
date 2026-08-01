@@ -46,7 +46,6 @@ udivirtual.com.bo
 utecnologica.edu.bo
 aluno.multivix.edu.br
 aluno.newtonpaiva.br
-estacio.br
 sempreunama.com.br
 sempreunijuazeiro.com.br
 sempreuninassau.com.br
@@ -216,7 +215,6 @@ cotcmail.cotc.edu
 cougars.csusm.edu
 cpcc.edu
 cwru.edu
-dartmouth.edu
 davidsonccc.edu
 daytonastate.edu
 deltacollege.edu
@@ -1449,7 +1447,6 @@ dharuma.edu.mv
 kag-erding.de
 sfcollege.edu
 utcancun.edu.mx
-alunos.estacio.br
 aluno.uniasselvi.com.br
 uinjkt.ac.id
 edu.pa.senac.br
