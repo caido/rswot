@@ -389,7 +389,6 @@ fsnmv.dnu.edu.ua
 ftu.ac.th
 fzs.unsa.ba
 fzu.edu.kg
-g.seoultech.ac.kr
 g.uao.edu.co
 ga
 gadtc.edu.ph
@@ -1303,7 +1302,6 @@ axiscolleges.in
 futureskills.co.nz
 st.vvu.edu.gh
 o365.nitp.ac.in
-cmb.ac.lk
 colegiocalasanz.edu.ni
 adenformations.com
 neepu.edu.cn

@@ -1907,3 +1907,5 @@ krmu.edu.in
 aec.edu.in
 unicuc.mx
 bue.edu.eg
+cmb.ac.lk
+mydev.uome.ch
