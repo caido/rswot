@@ -579,7 +579,6 @@ live.uni-vt.bg
 live.uru.ac.th
 lixin.edu.cn
 ljb.edu.hk
-lo2.wroc.pl
 lo9wrocpl.onmicrosoft.com
 lounle.lv
 lsts.edu.vn
@@ -659,7 +658,6 @@ mdu.edu.rs
 me.mcu.edu.tw
 medicina.uerj.br
 meduca.edu.pa
-member.scau.ac.kr
 mermoz.edu.ar
 metodista.br
 meu.edu.jo
@@ -822,7 +820,6 @@ psis.edu.my
 psu.palawan.edu.ph
 puc.tu.edu.np
 pucesa.edu.ec
-pum.edu.pl
 pusob.edu.np
 pycharm.ac.cn
 qdul.ch
@@ -1306,3 +1303,18 @@ colegiocalasanz.edu.ni
 adenformations.com
 neepu.edu.cn
 stu.kust.edu.cn
+glion.ch
+kittiptur.ac.in
+upeg.edu.mx
+universidad-uic.edu.mx
+ctech.edu.vn
+bcisphuket.ac.th
+vishwaniketan.edu.in
+upecen.edu.pe
+upnch.net
+upsc.edu.pe
+cobat.edu.mx
+o365.hust.edu.tw
+touaxin.com
+ms.mcehassan.ac.in
+som.ncuindia.edu
