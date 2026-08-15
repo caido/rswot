@@ -1903,3 +1903,7 @@ busyschools.qld.edu.au
 buu.ac.th
 student.tusd.net
 connect.hku.hk
+student.ism.de
+student.iuh.edu.vn
+holbertonstudents.com
+std.ltuc.edu.jo
