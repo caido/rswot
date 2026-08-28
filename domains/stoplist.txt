@@ -1340,3 +1340,6 @@ alumni.sifal.deerwalk.edu.np
 alumni.miu.edu
 dmail.edu.vn
 bethlehem.edu.ps
+ual.pt
+zstmikolow.pl
+kaznaru.edu.kz
