@@ -458,7 +458,6 @@ hucff.ufrj.br
 hudson.k12.mi.us
 huest.edu.kg
 hufe.edu.cn
-huit.edu.vn
 huiu.edu.vn
 hunan.edu.sl
 hungyen.itrithuc.vn
