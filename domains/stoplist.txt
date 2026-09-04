@@ -1354,4 +1354,5 @@ hu.ac.th
 dornod.edu.mn
 buc.edu.om
 ch.dnu.edu.ua
-cide.edu
+cide.edustu.ac.th
+upal.edu

@@ -1929,3 +1929,6 @@ edu.cdv.pl
 stu.pes.edu
 iser.edu.co
 vpa.ac.lk
+upagu.edu.pe
+ckik.hu
+kname.edu.ua
