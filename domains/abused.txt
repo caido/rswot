@@ -1358,7 +1358,6 @@ abes.ac.in
 acc.edu.bz
 adamson.edu.ph
 aebarroselas.edu.pt
-aedfl.edu.pt
 aefm.edu.pt
 aemiraflores.edu.pt
 aguascalientes.tecnm.mx
@@ -1941,3 +1940,4 @@ eemc.edu.np
 enim.ac.ma
 escacilhastejo.org
 esmt.sn
+st.vvu.edu.gh
