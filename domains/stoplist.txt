@@ -271,7 +271,6 @@ cloud.isu.edu.tw
 cloud.wyk.edu.hk
 cmtc.ac.th
 cnba.uba.ar
-cobachih.edu.mx
 codesra.cn
 colegiolasesclavas.edu.pa
 colegiorefous.edu.co
@@ -361,7 +360,6 @@ essat-gabes-elearning.com
 est.domingocomin.edu.ec
 estudiante.uatx.mx
 estudiante.usat.edu.pe
-estudiantes.ucnl.edu.mx
 ettc.tl.edu.bb
 etudiant.ecole-artcom.com
 europagym.at
@@ -512,7 +510,6 @@ joy.edu.kg
 jp.edu.kg
 jsahvc.edu.cn
 jsust.edu.cn
-jsut.edu.cn
 just.edu.tw
 k.kkk.ac.nz
 k.tut.edu.pl
@@ -1375,3 +1372,12 @@ fth.capu.edu.eg
 gat.gen.hs.kr
 gym-leoben.net
 gymburlo.de
+mi.dau.edu.vn
+alkon.sch.sa
+ecr.edu.co
+au.edu.az
+eped.pt
+fopem.zu.edu.eg
+jsg.edu.jo
+maredschool.be
+ms.npu.ac.th
