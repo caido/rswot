@@ -654,7 +654,6 @@ medicina.uerj.br
 meduca.edu.pa
 mermoz.edu.ar
 metodista.br
-meu.edu.jo
 meve.lv
 mf.unsa.ba
 mfk.app
@@ -829,7 +828,6 @@ rgf.bg.ac.rs
 rhedu.org.il
 riceindia.org
 rsat.org.uk
-ruc.edu.cn
 ryn.edu.pl
 s.hlju.edu.cn
 s.kulogos.edu.al
@@ -1066,7 +1064,6 @@ tju.edu.cn
 tkc.edu
 tmu.edu.cn
 tongji.edu.cn
-top
 torreforta.lasalle.cat
 tp.edu.tw
 tralu.hdu.edu.cn
@@ -1381,3 +1378,9 @@ fopem.zu.edu.eg
 jsg.edu.jo
 maredschool.be
 ms.npu.ac.th
+e.madinagroups.edu.eg
+svuonline.org
+apu.edu.vn
+ceis.edu.ph
+ceuni.edu.mx
+ceumh.edu.mx
