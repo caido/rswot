@@ -1384,3 +1384,4 @@ apu.edu.vn
 ceis.edu.ph
 ceuni.edu.mx
 ceumh.edu.mx
+wcu.edu.et
