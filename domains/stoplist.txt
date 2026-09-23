@@ -1394,3 +1394,12 @@ student.polipd.edu.my
 stjolorient.fr
 stjohn.ac.th
 msteams.mitaoe.ac.in
+alumni.sydney.edu.au
+alumni.sutd.edu.sg
+nursing.zu.edu.eg
+alumni.mahidol.ac.th
+ums.uom.ac.mu
+swry.ac.th
+office.stu.ac.kr
+mum.edu.pl
+horizon.sch.sa
