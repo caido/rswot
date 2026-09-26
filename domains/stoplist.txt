@@ -64,7 +64,6 @@ aitmofml.ru
 akademiastudente.co.za
 akshara.ac.in
 alanyauniversity.edu.tr
-alazhar.edu.ps
 alfaunipac.com.br
 ali.edu.pl
 allegany.edu
@@ -342,7 +341,6 @@ edu.tuusula.fi
 educatrachos.edu.hn
 educn.ac.cn
 eksu.edu.ng
-elproschools.edu.in
 email.cufe.edu.cn
 email.cugb.edu.cn
 email.szu.edu.cn
@@ -1406,3 +1404,4 @@ horizon.sch.sa
 alumni.nurulfikri.ac.id
 medicine.mti.edu.eg
 trenton.k12.nj.us
+colegiosanjose.edu.pa
