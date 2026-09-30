@@ -968,7 +968,6 @@ aealcochete.edu.pt
 aebpc.edu.pt
 aejuliodinis.edu.pt
 aluno.agvaf.edu.pt
-alunos.estgv.ipv.pt
 alunos.isel.pt
 cic.pt
 cocite.pt
@@ -1814,7 +1813,6 @@ utp.ac.pa
 mcbs.edu.om
 mcet.in
 bufs.ac.kr
-estgv.ipv.pt
 ugb.edu.sv
 student.pu.edu.np
 student.puo.edu.my
