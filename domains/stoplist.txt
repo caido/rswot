@@ -1480,3 +1480,9 @@ office.mustnet.ac.tz
 stu.uekat.edu.pl
 zsp20.elodz.edu.pl
 ap.senac.br
+rpu.ac.th
+donnuet.edu.ua
+dr.nassaucollege.nl
+amg.sch.ae
+ar-lessines.be
+perins.hants.sch.uk
