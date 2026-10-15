@@ -1279,7 +1279,6 @@ studenti.it
 bethlehem.edu.ps
 zs5.elk.pl
 ju2.edu.et
-vuv.hr
 kwcollege.nl
 isbatuniversity.com
 axiscolleges.in
@@ -1486,3 +1485,4 @@ dr.nassaucollege.nl
 amg.sch.ae
 ar-lessines.be
 perins.hants.sch.uk
+kp.ac.rw
